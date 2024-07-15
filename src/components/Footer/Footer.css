@@ -1,0 +1,13 @@
+.footer {
+    background-color: #ffffff;
+    border-top:1px solid #d6d6d6;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+ 
+  footer h2{
+    font-family: 'TransformaMix_Trial-SemiBold';
+    font-size: 24px;
+    color:#000000;
+  }

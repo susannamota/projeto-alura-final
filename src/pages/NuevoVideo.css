@@ -1,0 +1,53 @@
+.nuevo-video {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 50px auto;
+    
+  }
+  
+  .nuevo-video h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .nuevo-video form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nuevo-video input,
+  .nuevo-video select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .nuevo-video input[type="text"],
+  .nuevo-video select {
+    background-color: #ffffff;
+    color:#999999;
+  }
+  
+  .nuevo-video input::placeholder {
+    color: #ccc;
+  }
+  
+  .nuevo-video button {
+    padding: 10px;
+    background-color: #695e9a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .nuevo-video button:hover {
+    background-color: #695e9a;
+  }
+  

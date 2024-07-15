@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #fff; /* Color del texto blanco */
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  background: #fff;
+  min-height: 100vh; 
+ 
+  
+  
+}
+
+.carousel-item {
+   background: linear-gradient(150deg, #695E9A, #446E48); /* Gradiente de negro claro a negro oscuro para estos elementos */
+}
+nav, footer {
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+
+
+
+@font-face {
+  font-family: 'Gismo-Trial-Rectangular';
+  src: local('Gismo-Trial-Rectangular'), url(fonts/Gismo-Trial-Rectangular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Gismo-Trial-SemiRectangular';
+  src: local('Gismo-Trial-SemiRectangular'), url(fonts/Gismo-Trial-SemiRectangular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gismo-Trial-Round';
+  src: local('Gismo-Trial-Round'), url(fonts/Gismo-Trial-Round.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Chopin-Trial-Medium';
+  src: local('Chopin-Trial-Medium'), url(fonts/Chopin-Trial-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'TransformaMix_Trial-SemiBold';
+  src: local('TransformaMix_Trial-SemiBold'), url(fonts/TransformaMix_Trial-SemiBold.ttf) format('truetype');
+}
